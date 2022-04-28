@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>TodoApp</title>  
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+
+        <div class="app u-mb-large">
+          <h1 class="app__name">TODO</h1>
+          <div class="app__mode">
+            <input type="checkbox" name="theme" id="app__current-theme" class="app__checkbox--input">
+            <label for="app__current-theme" class="app__theme">
+                <img src="images/icon-sun.svg" alt="theme_image" class="app__icon-sun">
+            </label>
+          </div>
+        </div>
+
+      
+        <div class="app__input-field field">
+          <!-- <input type="checkbox" name="task" id="task--current" class="field__checkbox--input">
+          <label for="task--current" class="field__label">
+            <span class="field__checkbox">
+              <img src="images/icon-check.svg" alt="check_image" class="field__icon field__icon--check">
+            </span>
+          </label> -->
+            <div class="circle"></div>
+            <input type="text" class="field__content--input" name="newTask" id="newtsk" placeholder="Create a new todo..">
+            <label for="newtsk" ></label>
+        </div>
+
+      <div class="main">
+      <div class="list">
+        <!-- 
+        <div class="field ">
+          <input type="checkbox" name="task" id="task--11" class="field__checkbox--input">
+          <label for="task--11" class="field__label">
+            <span class="field__checkbox">
+              <img src="images/icon-check.svg" alt="" class="field__icon field__icon--check">
+            </span>
+          </label>
+          <div class="field__content">
+            Complete online JavaSript course
+          </div>
+          <img src="images/icon-cross.svg" class="field__icon field__icon--cross">
+        </div>
+
+        <div class="field ">
+          <input type="checkbox" name="task" id="task--12" class="field__checkbox--input">
+          <label for="task--12" class="field__label">
+            <span class="field__checkbox">
+              <img src="images/icon-check.svg" alt="" class="field__icon field__icon--check">
+            </span>
+          </label>
+          <div class="field__content">
+            Jog around the park 3x
+          </div>
+          <img src="images/icon-cross.svg" class="field__icon field__icon--cross">
+        </div>
+
+        <div class="field ">
+          <input type="checkbox" name="task" id="task--3" class="field__checkbox--input">
+          <label for="task--3" class="field__label">
+            <span class="field__checkbox">
+              <img src="images/icon-check.svg" alt="" class="field__icon field__icon--check">
+            </span>
+          </label>
+          <div class="field__content">
+            10 minutes meditation
+          </div>
+          <img src="images/icon-cross.svg" class="field__icon field__icon--cross">
+        </div>
+
+        <div class="field ">
+          <input type="checkbox" name="task" id="task--4" class="field__checkbox--input">
+          <label for="task--4" class="field__label">
+            <span class="field__checkbox">
+              <img src="images/icon-check.svg" alt="" class="field__icon field__icon--check">
+            </span>
+          </label>
+          <div class="field__content">
+            Read for 1 hour
+          </div>
+          <img src="images/icon-cross.svg" class="field__icon field__icon--cross">
+        </div> 
+        
+        <div class="field ">
+          <input type="checkbox" name="task" id="task--5" class="field__checkbox--input">
+          <label for="task--5" class="field__label">
+            <span class="field__checked--checkbox">
+              <img src="images/icon-check.svg" alt="" class="field__icon field__icon--check-checked">
+            </span>
+          </label>
+          <div class="field__content field__content--checked">
+            Complete Todo App on Frontend Mentor
+          </div>
+          <a href="#" class=".cross">
+          <img src="images/icon-cross.svg" class="field__icon field__icon--cross">
+        </a>
+        </div> -->
+
+      </div>
+      <!-- list end -->
+
+      <div class="field items">
+        <div class="items__left">
+          <span class="left">5</span>
+          Items Left
+        </div>
+        <div class="items__tab">
+          <button class="btn btn--tab items__tab--1 active">All</button>
+          <button class="btn btn--tab items__tab--2">Active</button>
+          <button class="btn btn--tab items__tab--3">Completed</button>
+        </div>
+        <button class="btn items__delete">
+          Clear Completed
+        </button>
+      </div> 
+
+    </div>
+
+    <div class="field discrete">
+     
+    </div>
+
+
+      <p class="app__text">
+        Drag and drop to reorder list
+      </p>
+    </div>
+      <!-- Container End -->
+
+    </header>
+    <div class="attribution">
+     <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p>
+     <p> Coded by <a href="https://www.github.com/riyakushwaha" target="_blank">Riya Kushwaha</a>.</p>
+    </div>
+    
+    <script src="javascript/script-oops.js"></script>
+  </body>
+</html>
+
+ <!-- <div class="items__tab">
+        <button class="btn btn--tab items__tab--1 active">All</button>
+        <button class="btn btn--tab items__tab--2">Active</button>
+        <button class="btn btn--tab items__tab--3">Completed</button>
+      </div> -->
